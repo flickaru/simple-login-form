@@ -1,0 +1,60 @@
+/* Font declarations */
+
+@font-face {
+    font-family: notosans;
+src:url(fonts/noto-sans.ttf);
+}
+
+@font-face {
+    font-family: ubuntu;
+src:url(fonts/noto-sans.ttf);
+}
+
+
+/* css styling */
+
+
+/* nav section */
+
+nav li {
+    font-family: ubuntu;
+    display: inline; /* Display nav elements side by side */
+    width:100%;
+    padding: 40px;
+    color:blueviolet;
+
+}
+
+nav a {
+    width: 100%;
+    text-decoration: none;
+    color: aqua;
+}
+
+nav {
+    padding: 40px;
+    background-color: rgb(55, 50, 58);
+    position: relative; /* relative for the parent object, nav */
+}
+
+/* Wrapper section */
+
+.wrapper {
+    position: absolute; /* absolute to align with the relative in the parent object */
+    left: 15%; /* everything is opposite with this method so we use left */
+    transform:translate(350px);
+    width:30%;
+    border-radius: 20px;
+    height: 600px;
+    font-family: notosans;
+    padding: 20px;
+    background-color: rgb(161, 67, 216);
+}
+
+.wrapper h3 {
+    text-align: center; 
+}
+
+input {
+    transform: translate(30px);
+}
